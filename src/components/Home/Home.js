@@ -1,9 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
-import Home2 from "./Home2";
-import Type from "./Type";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import homeLogo from '../../Assets/home-main.svg'
+import Particle from '../Particle'
+import Home2 from './Home2'
+import Type from './Type'
 
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hi There!{' '}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -22,10 +22,10 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> VENKATA HARSHA</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 50, textAlign: 'left' }}>
                 <Type />
               </div>
             </Col>
@@ -35,7 +35,7 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: '450px' }}
               />
             </Col>
           </Row>
@@ -43,7 +43,7 @@ function Home() {
       </Container>
       <Home2 />
     </section>
-  );
+  )
 }
 
-export default Home;
+export default Home

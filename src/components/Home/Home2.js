@@ -15,7 +15,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: '2.6em' }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
@@ -24,17 +24,14 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> C++, Python and Javascript. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                also in areas related to <b className="purple">Deep Learning.</b>
               </i>
               <br />
               <br />
@@ -42,7 +39,7 @@ function Home2() {
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
-                  {" "}
+                  {' '}
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
@@ -67,7 +64,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Harshaiiitk"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +74,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +84,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/venkataharshapedada/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +94,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/harshaiitc/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -110,6 +107,6 @@ function Home2() {
         </Row>
       </Container>
     </Container>
-  );
+  )
 }
 export default Home2;

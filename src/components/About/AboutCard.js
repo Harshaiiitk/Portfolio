@@ -7,14 +7,14 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+          <p style={{ textAlign: 'justify' }}>
+            Hi Everyone, I am <span className="purple">Venkata Harsha </span>
+            from <span className="purple"> Austin, Texas.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently employed as a flutter developer at BBBSVC.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have completed Masters (MS) in Computer Science at
+            IIT chicago.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -31,14 +31,14 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: 'rgb(155 126 172)' }}>
+            "Do it like you never need to do it again!"{' '}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Harsha</footer>
         </blockquote>
       </Card.Body>
     </Card>
-  );
+  )
 }
 
 export default AboutCard;
